@@ -1,29 +1,33 @@
 # Spotify Recommendation Engine
 
-**Welcome to the Spotify Genre Prediction and Recommendation Engine project! This repository explores Spotify track data to address challenges such as incomplete genre information and imbalanced genre distributions. By analyzing key factors like audio features (e.g., energy, tempo, and loudness), tag-based embeddings, and artist patterns, we develop a reliable genre prediction model and a personalized recommendation system.**
+Genre prediction and personalized music recommendation based on audio features and user behavior.
 
-## Project Overview
+This project explores Spotify track data to address challenges such as incomplete genre metadata and imbalanced distributions. By analyzing audio features (e.g., energy, tempo, loudness), tag-based embeddings, and user behavior, it builds a genre prediction model and a personalized recommendation engine.
 
-The project consists of three main sections:
+## Features
 
-1. **Power BI Report**
-   - Serves as the central guide and narrative for the project.
-   - Provides insights into the data.
-   - Examines the results of genre assignment, model performance, and the recommendation engine.
+- **Power BI Dashboard**  
+  Visual overview of dataset distributions, genre assignment results, and model outputs.
 
-2. **Genre assignment**
-   - Data cleaning and preparation.
-   - Creation of specialized embeddings for categorical features and correction of skewed columns.
-   - Training, testing, and evaluating multiple models.
-   - Assigning genres to tracks using the final, optimized model.
+- **Genre Assignment**  
+  - Data cleaning and preparation  
+  - Specialized embeddings for categorical features  
+  - Correction of skewed columns  
+  - Multi-model training and evaluation  
+  - Assigning genres using the optimized model
 
-3. **Recommendation Engine**
-   - Building a function to recommend songs based on user history.
-   - Optimizing the function’s weights for best performance.
-   - Generating song recommendations for a sample of 100 users and evaluating the results.
+- **Recommendation Engine**  
+  - Recommends tracks based on user listening history  
+  - Optimizes recommendation weights  
+  - Evaluates recommendations for a sample of 100 users
 
 ## Project Structure
 
-- `Spotify data analysis.pbix`: Power BI report for data exploration and the main narrative of the project.
-- `Genre_assigning.ipynb`: Jupyter notebook for data preprocessing, training the genre prediction model, and filling in missing genres.
-- `Recommendation_Engine.ipynb`: Jupyter notebook for defining, testing, and optimizing the song recommendation function based on user listening history.
+- `Spotify_data_analysis.pbix`  
+  Power BI report for data exploration and visual storytelling.
+
+- `Genre_Assigning.ipynb`  
+  Jupyter notebook for preprocessing, training genre prediction models, and assigning genres.
+
+- `Recommendation_Engine.ipynb`  
+  Jupyter notebook for defining, testing, and optimizing the recommendation logic.
